@@ -1,0 +1,62 @@
+/* body and global stuff */
+.global
+{
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #333333;
+}
+*
+{
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Open Sans", "Avant Garde", sans-serif;
+}
+
+
+/* customize elements */
+.color-grey { color: #2B2A2B; }
+.color-green { color: #29D6BB; }
+
+.size-big { font-size: 28; }
+.size-med { font-size: 18; }
+
+
+/* page items */
+.main-container
+{
+	width: 480;
+	padding: 2em;
+	background-color: rgba(255, 255, 255, .35);
+	margin-left: 5em;
+}
+.name
+{
+	text-transform: uppercase;
+}
+.baseline
+{
+	text-transform: capitalize;
+}
+
+
+/* vertical centering - http://css-tricks.com/centering-in-the-unknown/ */
+.vcenter-block:before
+{
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.3em; /* Adjusts for spacing */
+    
+  /* For visualization 
+  background: #808080; width: 5px; background-color: red;
+  */
+}
+.vcenter-item
+{
+  display: inline-block;
+  vertical-align: middle;
+}
